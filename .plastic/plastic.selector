@@ -1,0 +1,4 @@
+repository "Seasons@jiali7@cloud"
+  path "/"
+    br "/main"
+    co "/main"
