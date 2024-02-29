@@ -195,3 +195,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159223.817475 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(ca5d5b09388714add827592e2139f68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(ca5d5b09388714add827592e2139f68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb5aea146a657f24825d6d2d5236b7e3') in 0.452601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(c299b66aa36cc4f87b4f82be6d37b9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/shadow.png using Guid(c299b66aa36cc4f87b4f82be6d37b9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ad3ddbadd37747571465d994110bf80') in 0.041961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(6d198ebc740f24d0db41aefdccebec13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(6d198ebc740f24d0db41aefdccebec13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8ffd00a9f98da69f4efc9a723c9e10e') in 0.033267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Tree_Textures
+  artifactKey: Guid(9aad7c864b96c420382e15aa0f8d2d16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures using Guid(9aad7c864b96c420382e15aa0f8d2d16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb1aba94d7996d2d3d8328b8a7504c32') in 0.004748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001159 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(b3bb3fce8c8dd4c0c85fed583c320b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(b3bb3fce8c8dd4c0c85fed583c320b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e93f798233e6a0b7353a669d88f487e8') in 0.042472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 551.175061 seconds.
+  path: Assets/Tree_Textures/normal_specular.png
+  artifactKey: Guid(b3bb3fce8c8dd4c0c85fed583c320b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/normal_specular.png using Guid(b3bb3fce8c8dd4c0c85fed583c320b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be026786051433662daa3d8a8dc1f89b') in 0.325641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

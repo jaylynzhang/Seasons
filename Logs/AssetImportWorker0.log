@@ -243,3 +243,67 @@ Received Import Request.
 Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '601c18fc5a8214030d17c5df762dc3db') in 0.003732 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1283.359733 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(205b35b2b3b704d02b69641446862c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree.prefab using Guid(205b35b2b3b704d02b69641446862c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '39e060e2df66f29fa5891b962378c1b6') in 0.827807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 316.497828 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(205b35b2b3b704d02b69641446862c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree.prefab using Guid(205b35b2b3b704d02b69641446862c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c89b497bcdb3a7d36a58cc2f25f9921') in 0.081018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 121.995659 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(205b35b2b3b704d02b69641446862c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(205b35b2b3b704d02b69641446862c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126271cffed337e727ce5a7e4b4b9d0c') in 2.290978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 110.053603 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(ca5d5b09388714add827592e2139f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(ca5d5b09388714add827592e2139f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50aeeb8498d72bf0efa9e3a8afae50db') in 0.125641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(c299b66aa36cc4f87b4f82be6d37b9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(c299b66aa36cc4f87b4f82be6d37b9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1790a4572226b0e93ee0ae7fa8ff8b64') in 0.015492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(6d198ebc740f24d0db41aefdccebec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(6d198ebc740f24d0db41aefdccebec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e2ec02efd5a321914edd5f137893e5') in 0.018050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.702099 seconds.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(205b35b2b3b704d02b69641446862c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(205b35b2b3b704d02b69641446862c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e68017eae7b03d07b09c816994294ab') in 0.106231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 518.193641 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1bdceb1ff1cbb76747cf33f848cf189') in 0.010007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
