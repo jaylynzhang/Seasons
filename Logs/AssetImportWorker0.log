@@ -307,3 +307,99 @@ Received Import Request.
 Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1bdceb1ff1cbb76747cf33f848cf189') in 0.010007 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 649.801875 seconds.
+  path: Assets/Scenes/SpringGround.mat
+  artifactKey: Guid(e5de9fe801b544003a91563cba3c1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SpringGround.mat using Guid(e5de9fe801b544003a91563cba3c1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a52cba22c094b67bedde7b1b54f14b') in 0.081723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.849794 seconds.
+  path: Assets/Scenes/SpringGround.mat
+  artifactKey: Guid(e5de9fe801b544003a91563cba3c1fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SpringGround.mat using Guid(e5de9fe801b544003a91563cba3c1fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '133c7c76e1f5ae8a63625ecf24d469ec') in 0.029177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 36.127299 seconds.
+  path: Assets/Scenes/Materials
+  artifactKey: Guid(749d9432ac0f14c57b1d6bd6c6cab08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials using Guid(749d9432ac0f14c57b1d6bd6c6cab08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c7c5222332525db3bdd32c0100502b') in 0.001112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.956627 seconds.
+  path: Assets/Scenes/Materials
+  artifactKey: Guid(749d9432ac0f14c57b1d6bd6c6cab08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Materials using Guid(749d9432ac0f14c57b1d6bd6c6cab08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1701330ff7d50ee574885614b4783e2') in 0.006829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.003450 seconds.
+  path: Assets/Scenes/Materials/SpringGround.mat
+  artifactKey: Guid(e5de9fe801b544003a91563cba3c1fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Materials/SpringGround.mat using Guid(e5de9fe801b544003a91563cba3c1fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf4259e3c53899964c5e7ac171ca75d4') in 0.010741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.303837 seconds.
+  path: Assets/Scenes/Materials/SpringGround.mat
+  artifactKey: Guid(e5de9fe801b544003a91563cba3c1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials/SpringGround.mat using Guid(e5de9fe801b544003a91563cba3c1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba522d4ff15522298f74dc1e433941b2') in 0.013505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.732174 seconds.
+  path: Assets/Scenes/Materials/SummerGound.mat
+  artifactKey: Guid(206b0110aca6c416c9cab636b70ad17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials/SummerGound.mat using Guid(206b0110aca6c416c9cab636b70ad17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052fea7d3e4b53d4e4f9f694b18eba3c') in 0.010786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.959109 seconds.
+  path: Assets/Scenes/Materials/SummerGound.mat
+  artifactKey: Guid(206b0110aca6c416c9cab636b70ad17e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Materials/SummerGound.mat using Guid(206b0110aca6c416c9cab636b70ad17e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb0da80d28bedf97807bea7e1e1ff7cc') in 0.009490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.214890 seconds.
+  path: Assets/Scenes/Materials/FallGround.mat
+  artifactKey: Guid(8e560261107b64c448329009ee43006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials/FallGround.mat using Guid(8e560261107b64c448329009ee43006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903e0dab3cc08b0af5bffb8f4da80b35') in 0.012301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.953427 seconds.
+  path: Assets/Scenes/Materials/FallGround.mat
+  artifactKey: Guid(8e560261107b64c448329009ee43006f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Materials/FallGround.mat using Guid(8e560261107b64c448329009ee43006f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb98b2dd57aa55759ff0d444320c0c13') in 0.022055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1332.156694 seconds.
+  path: Assets/Scenes/Materials/FallGround.mat
+  artifactKey: Guid(8e560261107b64c448329009ee43006f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Materials/FallGround.mat using Guid(8e560261107b64c448329009ee43006f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '865ba8b6118c47bbe528179f97957995') in 0.072862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/GameScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '757a0b0cb757631f8ae4d32dfe042b81') in 0.008443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

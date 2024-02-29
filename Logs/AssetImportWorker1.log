@@ -243,3 +243,11 @@ Received Import Request.
 Start importing Assets/Tree_Textures/normal_specular.png using Guid(b3bb3fce8c8dd4c0c85fed583c320b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be026786051433662daa3d8a8dc1f89b') in 0.325641 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2606.131682 seconds.
+  path: Assets/Scenes/Materials/SummerGound.mat
+  artifactKey: Guid(206b0110aca6c416c9cab636b70ad17e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Materials/SummerGound.mat using Guid(206b0110aca6c416c9cab636b70ad17e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed3090c997feaf80468ef68144694def') in 0.653342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
