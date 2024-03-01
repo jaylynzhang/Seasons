@@ -4,7 +4,7 @@
       <File FileName="Assets/Scenes/Scripts/PlayerCam.cs" Line="36" Column="66" />
       <File FileName="Assets/Scenes/Scripts/MoveCam.cs" />
       <File FileName="Library/PackageCache/com.unity.collab-proxy@2.2.0/Editor/PlasticSCM/AssetOverlays/Cache/LocalStatusCache.cs" />
-      <File FileName="Assets/Scenes/Scripts/PlayerMovement.cs" Line="27" Column="22" />
+      <File FileName="Assets/Scenes/Scripts/PlayerMovement.cs" Line="32" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

@@ -29,8 +29,8 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void MyInput()
     {
-        horizontalInput = Input.GetAxisRaw("horizontal");
-        verticalInput = Input.GetAxisRaw("vertical");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
     }
 
     // Update is called once per frame
