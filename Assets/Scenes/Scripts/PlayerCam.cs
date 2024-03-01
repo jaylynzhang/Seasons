@@ -21,17 +21,19 @@ public class PlayerCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
+        RotateCamera();
+    }
+
+    void RotateCamera()
+    {
+        float mouseX = Input.GetAxisRaw("Mouse X") * sensX;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * sensY;
 
         yRotation += mouseX;
+        xRotation -= mouseY;
 
-        xRotation += mouseY;
-
-        // make sure not up or down over 90 degrees
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        // rotate cam and orentation
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         orientation.rotation = Quaternion.Euler(0, yRotation, 0);
     }

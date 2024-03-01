@@ -22,10 +22,10 @@ public class NewBehaviourScript : MonoBehaviour
         rb.freezeRotation = true;
     }
 
-    void FixedUpdate()
-    {
-        MovePlayer();
-    }
+    //void FixedUpdate()
+    //{
+    //    MovePlayer();
+    //}
 
     private void MyInput()
     {
@@ -33,16 +33,21 @@ public class NewBehaviourScript : MonoBehaviour
         verticalInput = Input.GetAxisRaw("Vertical");
     }
 
-    // Update is called once per frame
     void Update()
     {
         MyInput();
+        MovePlayer();
     }
 
     private void MovePlayer()
     {
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        moveDirection.y = 0f; // Ensure no vertical movement
 
-        rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+        // Normalize the direction to avoid faster movement diagonally
+        moveDirection.Normalize();
+
+        // Move the player using Rigidbody
+        rb.AddForce(moveDirection * moveSpeed * 10f, ForceMode.Force);
     }
 }
