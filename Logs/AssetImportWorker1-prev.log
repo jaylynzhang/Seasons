@@ -2,11 +2,11 @@ Unity Editor version:    2022.3.20f1 (61c2feb0970d)
 Branch:                  2022.3/release
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 14.0 (Build 23A344)
-Darwin version:          23.0.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        16384 MB
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/jzhang/Projects/CSE 457 Graphics/Seasons
+/Users/lydiali/Seasons
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 55960
 Successfully changed project path to: /Users/jzhang/Projects/CSE 457 Graphics/Seasons
 /Users/jzhang/Projects/CSE 457 Graphics/Seasons
+=======
+54911
+Successfully changed project path to: /Users/lydiali/Seasons
+/Users/lydiali/Seasons
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,16 +62,25 @@ Successfully changed project path to: /Users/jzhang/Projects/CSE 457 Graphics/Se
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [8708108864] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2229353772 [EditorId] 2229353772 [Version] 1048832 [Id] OSXEditor(0,Macintosh-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [8708108864] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 2229353772 [EditorId] 2229353772 [Version] 1048832 [Id] OSXEditor(0,Macintosh-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 6.34 ms, found 2 plugins.
+=======
+Player connection [7920619520] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2944017584 [EditorId] 2944017584 [Version] 1048832 [Id] OSXEditor(0,Lydias-MacBook-Pro-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7920619520] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2944017584 [EditorId] 2944017584 [Version] 1048832 [Id] OSXEditor(0,Lydias-MacBook-Pro-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 8.85 ms, found 2 plugins.
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/jzhang/Projects/CSE 457 Graphics/Seasons/Assets
+[Subsystems] Discovering subsystems at path /Users/lydiali/Seasons/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 Pro (high power)
 Metal devices available: 1
@@ -76,29 +91,48 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56897
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56154
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.005350 seconds.
 - Loaded All Assemblies, in  0.765 seconds
+=======
+Registered in 0.001274 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 Android Extension - Scanning For ADB Devices 392 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  2.013 seconds
 Domain Reload Profiling: 2780ms
 	BeginReloadAssembly (268ms)
+=======
+Android Extension - Scanning For ADB Devices 82 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.438 seconds
+Domain Reload Profiling: 712ms
+	BeginReloadAssembly (91ms)
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (4ms)
 	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (15ms)
@@ -122,6 +156,31 @@ Domain Reload Profiling: 2780ms
 			BeforeProcessingInitializeOnLoad (14ms)
 			ProcessInitializeOnLoadAttributes (532ms)
 			ProcessInitializeOnLoadMethodAttributes (263ms)
+=======
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (394ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (293ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,8 +188,13 @@ Domain Reload Profiling: 2780ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.270 seconds
 Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+=======
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -139,13 +203,20 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  3.259 seconds
 Domain Reload Profiling: 4534ms
 	BeginReloadAssembly (375ms)
+=======
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 926ms
+	BeginReloadAssembly (87ms)
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (52ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (43ms)
 	RebuildCommonClasses (55ms)
 	RebuildNativeTypeToScriptingClass (15ms)
@@ -249,6 +320,44 @@ Memory consumption went from 174.9 MB to 174.9 MB.
 Total: 3.982209 ms (FindLiveObjects: 0.241708 ms CreateObjectMapping: 0.124083 ms MarkObjects: 3.535583 ms  DeleteObjects: 0.080042 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3561.
+Memory consumption went from 152.8 MB to 152.8 MB.
+Total: 2.737667 ms (FindLiveObjects: 0.102416 ms CreateObjectMapping: 0.036791 ms MarkObjects: 2.506459 ms  DeleteObjects: 0.091292 ms)
+
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -263,6 +372,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  1.074 seconds
@@ -463,3 +573,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+Received Import Request.
+  Time since last request: 489848.423370 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8863927a4e0964cddb09c5d4c50f49ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8863927a4e0964cddb09c5d4c50f49ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafb4f185cb9a9ec13f0c8a6d6f4091b') in 0.001152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Scenes/Prefabs/Spring Prefabs
+  artifactKey: Guid(4c0080fb64f1d4e63b5cf41d8212d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/Spring Prefabs using Guid(4c0080fb64f1d4e63b5cf41d8212d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019c4eeedb25a028a98e52d0d6b1ce55') in 0.000169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scenes/Prefabs
+  artifactKey: Guid(3c2a333edde804fe1a4f154012008e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs using Guid(3c2a333edde804fe1a4f154012008e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7101df4e49104aceff6c8860bfcf7d') in 0.000123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+>>>>>>> a3ed77d73135c1acd69e76a35160b128a694406e
