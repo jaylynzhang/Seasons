@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 40
+  controlID: 8343
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,9 +368,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.5598617, y: 22.06808, z: -26.999567}
+    m_Target: {x: -35.96082, y: 1.8711178, z: -39.833347}
     speed: 2
-    m_Value: {x: -6.5598617, y: 22.06808, z: -26.999567}
+    m_Value: {x: -35.96082, y: 1.8711178, z: -39.833347}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -408,7 +408,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -416,17 +416,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.488
   m_Rotation:
-    m_Target: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
+    m_Value: {x: 0.7071067, y: 0.00000005096395, z: 0, w: 0.70710677}
   m_Size:
-    m_Target: 19.63338
+    m_Target: 3.9634793
     speed: 2
-    m_Value: 19.63338
+    m_Value: 3.9634793
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 8344
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -496,7 +496,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 8345
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -560,9 +560,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2859ffff
-      m_LastClickedID: -42712
-      m_ExpandedIDs: 125cffffc85cffff1464ffff28fbffffce5c0000f25c00001e5d00003a5d0000
+      m_SelectedIDs: 86760000
+      m_LastClickedID: 30342
+      m_ExpandedIDs: 1e0cffff2c0dffff1e26ffff5626ffffba45ffff4655fffff45bffff105cffff125cffffc85cffff1464ffff28fbffffce5c0000f25c00001e5d00003a5d000014730000ea760000f87600002e770000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Prefabs/Spring Prefabs
+    - Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -761,16 +761,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Prefabs/Spring Prefabs
+  - Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jzhang/Projects/CSE 457 Graphics/Seasons
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 240.5}
-    m_SelectedIDs: a8690000
-    m_LastClickedID: 27048
-    m_ExpandedIDs: 00000000d85d00001c5e00001e5e0000225e0000245e0000a8690000ac690000cc690000ce690000d0690000d469000000ca9a3b
+    scrollPos: {x: 0, y: 413.49902}
+    m_SelectedIDs: de700000
+    m_LastClickedID: 28894
+    m_ExpandedIDs: 00000000d85d00001c5e00001e5e0000225e0000245e0000a0650000a8690000cc690000d0690000d2690000d4690000046b0000066b0000d870000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -798,7 +798,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d85d0000
+    m_ExpandedIDs: 00000000d85d00001c5e00001e5e0000225e0000245e0000a8690000cc690000d0690000d469000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -823,8 +823,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2859ffff
-    m_LastClickedInstanceID: -42712
+    m_SelectedInstanceIDs: 86760000
+    m_LastClickedInstanceID: 30342
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a2590000
     m_RenameOverlay:
@@ -907,8 +907,8 @@ MonoBehaviour:
     y: 0
     width: 371.5
     height: 895
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
