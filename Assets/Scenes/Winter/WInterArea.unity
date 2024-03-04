@@ -5207,6 +5207,7 @@ GameObject:
   - component: {fileID: 1517717009}
   - component: {fileID: 1517717011}
   - component: {fileID: 1517717010}
+  - component: {fileID: 1517717012}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5223,7 +5224,7 @@ Transform:
   m_GameObject: {fileID: 1517717008}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.8492, y: 0.6366, z: 9.36}
+  m_LocalPosition: {x: 15, y: 0.546, z: 9}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5278,6 +5279,29 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!136 &1517717012
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517717008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1549569945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6304,7 +6328,7 @@ GameObject:
   - component: {fileID: 1910244608}
   - component: {fileID: 1910244607}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

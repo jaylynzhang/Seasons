@@ -62,7 +62,7 @@ public class PlayerMove : MonoBehaviour
 
     private void Reset()
     {
-        rb.position = new Vector3(-36.3f, 0, -34.6f);
+        rb.position = new Vector3(15f, 1f, 9f);
     }
 
 
