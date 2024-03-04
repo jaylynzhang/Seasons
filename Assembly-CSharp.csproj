@@ -69,6 +69,7 @@
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
     <Compile Include="Assets/Scenes/Winter/MoveC.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs" />
+    <Compile Include="Assets/Scenes/Winter/PickStick.cs" />
     <Compile Include="Assets/Scenes/Winter/PlayerC.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
     <Compile Include="Assets/Scenes/Spring/MoveCamera.cs" />

@@ -7,6 +7,7 @@ TagManager:
   - Trees
   - SpecialTree
   - Hammer
+  - Stick
   layers:
   - Default
   - TransparentFX
