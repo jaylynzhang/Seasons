@@ -55,26 +55,32 @@
     <UnityVersion>2022.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBox.cs" />
+    <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeHelper.cs" />
+    <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/Core/FlagEnumAttribute.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/FXDemoController.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/EmitterPositionController.cs" />
     <Compile Include="Assets/Scenes/Spring/PlayerCam.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Scenes/Spring/PickUpHammer.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
-    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs" />
+    <Compile Include="Assets/Scenes/Winter/MoveC.cs" />
+    <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
+    <Compile Include="Assets/Scenes/Winter/PlayerC.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
+    <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs" />
     <Compile Include="Assets/Scenes/Spring/MoveCamera.cs" />
-    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
     <Compile Include="Assets/Scenes/Spring/BuildBridge.cs" />
     <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scenes/Spring/PlayerMovements.cs" />
-    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
+    <Compile Include="Assets/Scenes/Winter/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
   </ItemGroup>
@@ -87,11 +93,8 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets/Asset Store Packages/AQUAS-Lite/Shaders/AQUAS-Lite_Frontface.shader" />
-    <None Include="Assets/Asset Store Packages/Snowconesolid Assets/Super Beach Pack/Snowconesolid Assets ReadMe.txt" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader" />
-    <None Include="Assets/Asset Store Packages/AQUAS-Lite/Readme.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -102,10 +105,8 @@
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Water_Shader.shader" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
-    <None Include="Assets/Asset Store Packages/Snowconesolid Assets/Super Beach Pack/Super Beach Ball Pack/Snowconesolid Assets ReadMe.txt" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Asset Store Packages/Zololgo/PaperLands Winter Village/Shaders/Zololgo_PaperLands_StandardColorEmissive.shader" />
-    <None Include="Assets/Asset Store Packages/AQUAS-Lite/Shaders/AQUAS-Lite_Backface.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/readme.txt" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Rock_Shader.shader" />
@@ -113,7 +114,6 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-    <None Include="Assets/Asset Store Packages/VertexColorFarmAnimals/Shaders/VertexColorUnlit.shader" />
     <None Include="Assets/Asset Store Packages/Zololgo/PaperLands Winter Village/Shaders/Zololgo_PaperLands_StandardColor.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
   </ItemGroup>
