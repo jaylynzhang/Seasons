@@ -71,13 +71,16 @@
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Scenes/Spring/PickUpHammer.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets/Scenes/Winter/MoveC.cs" />
     <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
+    <Compile Include="Assets/Scenes/Winter/PlayerC.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
     <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs" />
     <Compile Include="Assets/Scenes/Spring/MoveCamera.cs" />
     <Compile Include="Assets/Scenes/Spring/BuildBridge.cs" />
     <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scenes/Spring/PlayerMovements.cs" />
+    <Compile Include="Assets/Scenes/Winter/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
   </ItemGroup>
