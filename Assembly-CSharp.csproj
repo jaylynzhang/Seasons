@@ -67,12 +67,15 @@
     <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeBase.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/EmitterPositionController.cs" />
+    <Compile Include="Assets/Scenes/Spring/PlayerCam.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
     <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WateverVolumeFloater.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
     <Compile Include="Assets/Asset Store Packages/Bitgem/StylisedWater/URP/Scripts/Bitgem/VFX/StylisedWater/WaterVolumeTransforms.cs" />
+    <Compile Include="Assets/Scenes/Spring/MoveCamera.cs" />
     <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scenes/Spring/PlayerMovements.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
   </ItemGroup>
