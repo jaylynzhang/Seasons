@@ -81,6 +81,11 @@
     <Compile Include="Assets/Scenes/Spring/Scripts/FillLemonJuice.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/ProductGameObject.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/PlayerSlots.cs" />
+    <Compile Include="Assets/Scenes/Spring/PlayerCam.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
+    <Compile Include="Assets/Scenes/Spring/PickUpHammer.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/Product.cs" />
@@ -102,6 +107,18 @@
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
     <Compile Include="Assets/Scenes/Winter/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+    <Compile Include="Assets/Scenes/Spring/MoveCamera.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scenes/Spring/BuildBridge.cs" />
+    <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/Scenes/Spring/PlayerMovements.cs" />
+    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/Utilities/ScreenShotHelper.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
@@ -115,6 +132,9 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Plants_Shader.shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+    <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Plants_Shader.shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader" />
@@ -148,6 +168,7 @@
     <None Include="Assets/Asset Store Packages/VertexColorFarmAnimals/Shaders/VertexColorUnlit.shader" />
     <None Include="Assets/Asset Store Packages/Zololgo/PaperLands Winter Village/Shaders/Zololgo_PaperLands_StandardColor.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
