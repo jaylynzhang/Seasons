@@ -8,9 +8,11 @@
       <File FileName="Assets/Scenes/Scripts/CameraController.cs" />
       <File FileName="Assets/Scenes/Winter/MoveC.cs" />
       <File FileName="Assets/Scenes/Winter/PlayerC.cs" />
-      <File FileName="Assets/Scenes/Winter/PlayerMove.cs" Line="78" Column="1" />
+      <File FileName="Assets/Scenes/Winter/PlayerMove.cs" />
       <File FileName="Assets/Scenes/Winter/PickStick.cs" />
-      <File FileName="Assets/Scenes/Spring/PickUpHammer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Spring/PickUpHammer.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scenes/Winter/GetWood.cs" Line="32" Column="1" />
+      <File FileName="Assets/Scenes/Spring/BuildBridge.cs" Line="43" Column="6" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +20,10 @@
           <Node name="Seasons" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scenes" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="PlayerCam.cs" selected="True" />
+                <Node name="Scripts" expanded="True" />
+                <Node name="Spring" expanded="True">
+                  <Node name="PickUpHammer.cs" selected="True" />
                 </Node>
-                <Node name="Spring" expanded="True" />
                 <Node name="Winter" expanded="True" />
               </Node>
             </Node>
