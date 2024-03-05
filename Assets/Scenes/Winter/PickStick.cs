@@ -16,7 +16,6 @@ public class PickStick : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        print(other.gameObject.tag);
         if(other.gameObject.tag == "Player")
         {
             PickUpText.SetActive(true);
