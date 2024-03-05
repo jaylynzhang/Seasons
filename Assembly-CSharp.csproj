@@ -81,6 +81,7 @@
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/PlayerSlots.cs" />
     <Compile Include="Assets/Scenes/Spring/PickUpHammer.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets/Scenes/Winter/PickWood.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/Product.cs" />
     <Compile Include="Assets/Scenes/Winter/MoveC.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/OnClickCoverHelper.cs" />

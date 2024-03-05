@@ -6,13 +6,15 @@ public class GetWood : MonoBehaviour
 {
     public GameObject SpecialTree;
     public GameObject WoodOn;
-    public GameObject HammerOn;
     public GameObject HitTreeText;
+    public GameObject HammerOn;
+
     // Start is called before the first frame update
     void Start()
     {
         SpecialTree.SetActive(true);
         WoodOn.SetActive(false);
+        HitTreeText.SetActive(false);
     }
 
     private void OnTriggerStay(Collider other)
