@@ -1,23 +1,16 @@
 ﻿<Properties StartupConfiguration="{B10E9CFA-9100-EB1B-395F-624F0EFE56B2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Winter/GetWood.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Summer/terrainTrigger.cs">
     <Files>
-      <File FileName="Assets/Scenes/Scripts/PlayerCam.cs" Line="1" Column="1" />
-      <File FileName="Library/PackageCache/com.unity.collab-proxy@2.2.0/Editor/PlasticSCM/AssetOverlays/Cache/LocalStatusCache.cs" />
-      <File FileName="Assets/Scenes/Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scenes/Scripts/PlayerControl.cs" />
-      <File FileName="Assets/Scenes/Scripts/CameraController.cs" />
-      <File FileName="Assets/Scenes/Winter/MoveC.cs" />
-      <File FileName="Assets/Scenes/Winter/PlayerC.cs" />
-      <File FileName="Assets/Scenes/Winter/PlayerMove.cs" />
-      <File FileName="Assets/Scenes/Winter/PickStick.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scenes/Winter/PickWood.cs" Line="36" Column="2" />
-      <File FileName="Assets/Scenes/Winter/DropWood.cs" Line="3" Column="19" />
-      <File FileName="Assets/Scenes/Winter/GetWood.cs" Line="38" Column="6" NotebookId="1" />
+      <File FileName="Assets/Scenes/Scripts/CameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Summer/Pickup.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Summer/ObjectsToCollect.cs" Line="50" Column="42" />
+      <File FileName="Assets/Scenes/Summer/terrainTrigger.cs" Line="23" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4acee956-8015-44a7-a636-0e29819d3e92" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="085f03f7-2eb2-4e12-97a2-be7a5aca04bd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

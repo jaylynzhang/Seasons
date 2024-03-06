@@ -73,6 +73,7 @@
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/FXDemoController.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/BewerageMaker.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scenes/Summer/terrainTrigger.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/CreateProductOnPlaceHolder.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/BuildBridge.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/Utilities/BasicCameraControl.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/PlayerSlots.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets/Scenes/Summer/ObjectsToCollect.cs" />
     <Compile Include="Assets/Scenes/Winter/PickWood.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
     <Compile Include="Assets/Asset Store Packages/CoffeeShopStarterPack/Scripts/Product.cs" />

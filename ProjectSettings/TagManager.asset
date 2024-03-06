@@ -8,6 +8,10 @@ TagManager:
   - SpecialTree
   - Hammer
   - Stick
+  - Fluid
+  - rock
+  - tube
+  - umbrella
   layers:
   - Default
   - TransparentFX
