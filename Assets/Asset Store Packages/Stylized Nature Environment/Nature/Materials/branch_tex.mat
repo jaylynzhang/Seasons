@@ -8,14 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: branch_tex
-  m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 14000, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - EFFECT_HUE_VARIATION
-  - _WINDQUALITY_BEST
-  m_InvalidKeywords:
   - GEOM_TYPE_LEAF
+  m_InvalidKeywords:
+  - _CUSTOMWIND_ON
+  - _TRANSLUCENCYONOFF_ON
+  - _WINDQUALITY_BEST
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -26,6 +28,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9634ee48c3f26e64eac59fc3a11a5bdb, type: 3}
+        m_Texture: {fileID: 2800000, guid: d86bfb0c919e8a54199128cb5be73452, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -90,6 +96,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AO: 2.4
@@ -97,40 +107,64 @@ Material:
     - _BillboardKwToggle: 0
     - _BillboardShadowFade: 0.5
     - _BumpScale: 1
+    - _CUSTOMCOLORSTINTING: 0
+    - _CUSTOMWIND: 1
     - _Cull: 0
-    - _Cutoff: 0.58
+    - _Cutoff: 0.613
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Gradient: 1.4
+    - _GradientPower: 1
     - _HueVariationKwToggle: 1
+    - _LeavesThickness: 0.5
+    - _MaskClipValue: 0.5
     - _Metallic: 0
     - _Mode: 0
     - _NormalMapKwToggle: 0
     - _Occlusion: 7.5
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _SNOWONOFF: 0
     - _ShadowStrength: 1
     - _Shininess: 0.078125
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 1
+    - _SnowCoverage: 0.45
+    - _SnowGradient: 0.83
     - _SpecularHighlights: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
     - _SubsurfaceIndirect: 0.25
     - _SubsurfaceKwToggle: 0
+    - _TRANSLUCENCYONOFF: 1
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
     - _TranslucencyViewDependency: 0.7
     - _TwoSided: 2
     - _UVSec: 0
+    - _WindDensity: 3.3
+    - _WindMovement: 0.5
     - _WindQuality: 4
+    - _WindStrength: 0.3
     - _ZWrite: 1
+    - __dirty: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.050980393, b: 0, a: 0.999}
+    - _Color: {r: 0.9811321, g: 0.72526807, b: 0.18974723, a: 0.999}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HueVariation: {r: 1, g: 0.46926987, b: 0, a: 0}
-    - _HueVariationColor: {r: 1, g: 0.4490608, b: 0, a: 0.1}
+    - _GroundColor: {r: 1, g: 0, b: 0, a: 1}
+    - _HueVariation: {r: 0.9137255, g: 0.256716, b: 0.023529395, a: 0}
+    - _HueVariationColor: {r: 1, g: 0.11694196, b: 0, a: 0.1}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopColor: {r: 0, g: 0.2178235, b: 1, a: 1}
     - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

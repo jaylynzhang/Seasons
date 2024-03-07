@@ -2,15 +2,29 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Summer/terrainTrigger.cs">
     <Files>
       <File FileName="Assets/Scenes/Scripts/CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Summer/Pickup.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Summer/ObjectsToCollect.cs" Line="50" Column="42" />
+      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
+      <File FileName="Assets/Scenes/Summer/ObjectsToCollect.cs" />
       <File FileName="Assets/Scenes/Summer/terrainTrigger.cs" Line="23" Column="6" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seasons" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True">
+                <Node name="Summer" expanded="True">
+                  <Node name="terrainTrigger.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="085f03f7-2eb2-4e12-97a2-be7a5aca04bd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ee64307c-3c5e-4f8e-a420-df9b7f277cb1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
