@@ -29,7 +29,7 @@ public class ObjectsToCollect : MonoBehaviour
         oldTube.SetActive(true);
         oldRock.SetActive(true);
         oldUmbrella.SetActive(true);
-        //text.SetActive(true);
+        //text.SetActive(false);
         
     }
 
