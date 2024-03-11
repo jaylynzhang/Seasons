@@ -8,6 +8,8 @@ public class FillLemonJuice : MonoBehaviour
     public GameObject FilledLemonJuice;
     public GameObject LemonJuiceHint;
     public GameObject LemonOnHand;
+    public MonoBehaviour Outline;
+    private bool firstTime;
 
     // Start is called before the first frame update
     void Start()
@@ -17,17 +19,22 @@ public class FillLemonJuice : MonoBehaviour
         FilledLemonJuice.SetActive(false);
         LemonJuiceHint.SetActive(false);
         LemonOnHand.SetActive(false);
-        print(this.enabled);
+        Outline.enabled = false;
+        firstTime = true;
     }
 
     private void OnTriggerStay(Collider other)
     {
-        print(other.tag);
 
         // if player approaches and lemon juice is not filled
         if (other.tag == "Player" && !FilledLemonJuice.activeSelf)
         {
-            LemonJuiceHint.SetActive(true);
+            
+            Outline.enabled = true;
+            if (firstTime)
+            {
+                LemonJuiceHint.SetActive(true);
+            }
             // if has lemon on hand, fill it
             if (LemonOnHand.activeSelf && Input.GetKey(KeyCode.E))
             {
@@ -44,5 +51,7 @@ public class FillLemonJuice : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         LemonJuiceHint.SetActive(false);
+        Outline.enabled = false;
+        firstTime = false;
     }
 }

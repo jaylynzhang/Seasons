@@ -46,13 +46,15 @@ public class PlayerMovements : MonoBehaviour
 
         MyInput();
 
-        if (grounded)
-        {
-            rb.drag = groundDrag;
-        } else
-        {
-            rb.drag = 0;
-        }
+        rb.drag = groundDrag;
+
+        //if (grounded)
+        //{
+        //    rb.drag = groundDrag;
+        //} else
+        //{
+        //    rb.drag = 0;
+        //}
     }
 
     private void FixedUpdate()
@@ -85,7 +87,7 @@ public class PlayerMovements : MonoBehaviour
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         if (flatVel.magnitude > moveSpeed)
         {
-            Vector3 limitedVel = flatVel.normalized * moveSpeed;
+            Vector3 limitedVel = flatVel.normalized * (0.1f * moveSpeed);
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
     }
