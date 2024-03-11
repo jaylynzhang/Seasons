@@ -4,7 +4,7 @@ using UnityEngine;
 
 // YouTube tutorial: https://www.youtube.com/watch?v=f473C43s8nE
 
-public class PlayerMovements : MonoBehaviour
+public class PlayerMovementFall : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
@@ -45,16 +45,16 @@ public class PlayerMovements : MonoBehaviour
 
 
         MyInput();
+        SpeedControl();
 
-        rb.drag = groundDrag;
-
-        //if (grounded)
-        //{
-        //    rb.drag = groundDrag;
-        //} else
-        //{
-        //    rb.drag = 0;
-        //}
+        if (grounded)
+        {
+            rb.drag = groundDrag;
+        }
+        else
+        {
+            rb.drag = 0;
+        }
     }
 
     private void FixedUpdate()
@@ -64,7 +64,7 @@ public class PlayerMovements : MonoBehaviour
 
     private void Reset()
     {
-        rb.position = new Vector3(-36.3f, 0, -34.6f);
+        rb.position = new Vector3(55f, 5.7f, 90f);
     }
 
 
@@ -87,7 +87,7 @@ public class PlayerMovements : MonoBehaviour
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         if (flatVel.magnitude > moveSpeed)
         {
-            Vector3 limitedVel = flatVel.normalized * (0.1f * moveSpeed);
+            Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
     }
