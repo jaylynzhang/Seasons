@@ -62,6 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets/Scenes/Spring/Scripts/ImmatureLemonTree.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PlayerCam.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionUpdater.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/CameraFollow.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/World_Bar.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ButtonSphereInteractable.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/FXDemoController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TextWriter.cs" />
@@ -69,6 +73,8 @@
     <Compile Include="Assets/Scenes/Summer/terrainTrigger.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionPeriodic.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/World_Sprite.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/SaveSystem.cs" />
     <Compile Include="Assets/Scenes/Summer/ObjectsToCollect.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_UnitAnimation.cs" />
@@ -78,27 +84,41 @@
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs" />
     <Compile Include="Assets/Scenes/Winter/PickStick.cs" />
     <Compile Include="Assets/Scenes/Winter/PlayerC.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/PlayerTalk.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/GameHandler_ChatBubble.cs" />
     <Compile Include="Assets/Scenes/Winter/DropWood.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_BarMultiple.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_Skeleton_Updater.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/ComponentActions.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/CMDebug.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/Button_UI.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UVType.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_Skeleton_Frame.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/Interact/PlayerPickupDrop.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/MoveRoam_ChatBubble.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UtilsClass.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Assets.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/BodyPart.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_Sprite.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpWateringCan.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/BuildBridge.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/EmitterPositionController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UnitAnim.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/FillLemonJuice.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/World_Mesh.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/UI_InputWindow.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble3D.cs" />
     <Compile Include="Assets/Scenes/Winter/MoveC.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MatureLemonTree.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_TextComplex.cs" />
     <Compile Include="Assets/Scenes/Winter/GetWood.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/GameAssets.cs" />
@@ -107,17 +127,23 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UnitAnimType.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
     <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/ChatBubble.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/CLZF2.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/IMovePosition.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/Button_Sprite.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_Skeleton_Anim.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/LookAtCamera.cs" />
     <Compile Include="Assets/Scenes/Winter/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/NPCHeadLookAt.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/Outline.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_Bar.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_UnitSkeleton.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/typewriterUI.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionTimer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -130,6 +156,7 @@
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Asset Store Packages/AQUAS-Lite/Shaders/AQUAS-Lite_Frontface.shader" />
+    <None Include="Assets/Scenes/Fall/Scripts/CodeMonkey/README.txt" />
     <None Include="Assets/Asset Store Packages/Snowconesolid Assets/Super Beach Pack/Snowconesolid Assets ReadMe.txt" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader" />
@@ -1041,8 +1068,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1089,6 +1124,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1123,6 +1162,10 @@
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1183,6 +1226,10 @@
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">

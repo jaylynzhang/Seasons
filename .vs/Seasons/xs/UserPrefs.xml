@@ -1,22 +1,17 @@
 ﻿<Properties StartupConfiguration="{B10E9CFA-9100-EB1B-395F-624F0EFE56B2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs">
     <Files>
-      <File FileName="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" Line="30" Column="6" />
-      <File FileName="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
-      <File FileName="Assets/Scenes/Scripts/PlayerMovement.cs" />
-      <File FileName="Assets/Scenes/Scripts/PlayerCam.cs" />
-      <File FileName="Assets/Scenes/Scripts/PlayerControl.cs" />
-      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" Line="14" Column="10" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/Interact/PlayerPickupDrop.cs" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteractUI.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/GameAssets.cs" Line="23" Column="41" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" Line="12" Column="33" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteractUI.cs" Line="20" Column="45" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/Interact/PlayerPickupDrop.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" Line="19" Column="1" NotebookId="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble3D.cs" Line="70" Column="19" NotebookId="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" Line="19" Column="34" NotebookId="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" Line="32" Column="29" NotebookId="1" />
-      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="544" Column="22" NotebookId="1" />
+      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="539" Column="5" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/GameHandler_ChatBubble.cs" Line="16" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/MoveRoam_ChatBubble.cs" Line="68" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,22 +20,30 @@
             <Node name="Assets" expanded="True">
               <Node name="Asset Store Packages" expanded="True">
                 <Node name="ModularFirstPersonController" expanded="True">
-                  <Node name="FirstPersonController" expanded="True">
-                    <Node name="FirstPersonController.cs" selected="True" />
-                  </Node>
+                  <Node name="FirstPersonController" expanded="True" />
                 </Node>
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Fall" expanded="True">
                   <Node name="Scripts" expanded="True">
+                    <Node name="CodeMonkey" expanded="True">
+                      <Node name="Utils" expanded="True" />
+                    </Node>
                     <Node name="Interact" expanded="True" />
                     <Node name="PlayerMovement" expanded="True" />
                     <Node name="TalkToNPCs" expanded="True">
-                      <Node name="_" expanded="True" />
-                      <Node name="Scripts" expanded="True" />
+                      <Node name="_" expanded="True">
+                        <Node name="ChatBubble" expanded="True">
+                          <Node name="Scripts" expanded="True" />
+                        </Node>
+                      </Node>
+                      <Node name="Scripts" expanded="True">
+                        <Node name="NPCInteractable.cs" selected="True" />
+                      </Node>
                     </Node>
                   </Node>
                 </Node>
+                <Node name="Scripts" expanded="True" />
                 <Node name="Spring" expanded="True">
                   <Node name="Scripts" expanded="True" />
                 </Node>
