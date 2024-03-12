@@ -48,10 +48,4 @@ public class PlayerInteract : MonoBehaviour
 
         return closestInteractable;
     }
-
-    //// Method to be called by the ObjectInteractable when dropped
-    //public static void ObjectDropped()
-    //{
-    //    IsHoldingObject = false;
-    //}
 }

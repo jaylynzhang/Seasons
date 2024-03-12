@@ -19,12 +19,12 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
         // Toggle grab state
         if (!PlayerInteract.IsHoldingObject)
         {
-            Debug.Log("if grab");
+            // Debug.Log("if grab");
             Grab(playerTransform);
         }
         else
         {
-            Debug.Log("else drop");
+            // Debug.Log("else drop");
             Drop();
         }
     }
@@ -56,7 +56,7 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
     public void Drop()
     {
         //isGrabbed = false;
-        Debug.Log("inside Drop");
+        // Debug.Log("inside Drop");
         this.objectGrabPointTransform = null;
         objectRigidbody.useGravity = true;
         objectRigidbody.isKinematic = false;
