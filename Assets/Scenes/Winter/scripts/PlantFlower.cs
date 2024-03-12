@@ -7,7 +7,7 @@ public class PlantFlower : MonoBehaviour
     public GameObject FlowerOnHand;
     public GameObject Flowers;
     public GameObject PlantText;
-
+    public GameObject EndText;
 
 
     // Start is called before the first frame update
@@ -15,6 +15,7 @@ public class PlantFlower : MonoBehaviour
     {
         Flowers.SetActive(false);
         PlantText.SetActive(false);
+        EndText.SetActive(false);
     }
 
     private void OnTriggerStay(Collider other)
@@ -27,6 +28,7 @@ public class PlantFlower : MonoBehaviour
                 Flowers.SetActive(true);
                 PlantText.SetActive(false);
                 FlowerOnHand.SetActive(false);
+                EndText.SetActive(true);
             }
         }
     }
