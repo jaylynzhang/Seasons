@@ -32,13 +32,22 @@ public class Boat : MonoBehaviour
             if (firstTime)
             {
                 BoatHint.SetActive(true);
+                
             }
             if (PaddleOnPlayer.activeSelf && Input.GetKey(KeyCode.E))
             {
-                BoatHint.SetActive(false);
-                PaddleOnPlayer.SetActive(false);
-                mapOnPlayer.SetActive(false);
-                EndingText.SetActive(true);
+                if (BoatHint.activeSelf)
+                {
+                    StartCoroutine(wait(4.1f));
+                } else
+                {
+                    BoatHint.SetActive(false);
+                    PaddleOnPlayer.SetActive(false);
+                    mapOnPlayer.SetActive(false);
+                    EndingText.SetActive(true);
+                    firstTime = false;
+                }
+                
             }
         }
 
@@ -49,5 +58,16 @@ public class Boat : MonoBehaviour
         BoatHint.SetActive(false);
         firstTime = false;
         Outline.enabled = false;
+    }
+
+    IEnumerator wait(float time)
+    {
+        yield return new WaitForSeconds(time);
+        BoatHint.SetActive(false);
+        PaddleOnPlayer.SetActive(false);
+        mapOnPlayer.SetActive(false);
+        EndingText.SetActive(true);
+        firstTime = false;
+
     }
 }
