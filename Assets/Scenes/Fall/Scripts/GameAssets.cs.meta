@@ -4,25 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - s_ShootFlash: {instanceID: 0}
-  - pfSwordSlash: {instanceID: 0}
-  - pfEnemy: {instanceID: 0}
-  - pfEnemyFlyingBody: {instanceID: 0}
-  - pfImpactEffect: {instanceID: 0}
-  - pfDamagePopup: {instanceID: 0}
-  - pfDashEffect: {instanceID: 0}
-  - pfProjectileArrow: {instanceID: 0}
-  - pfBolt: {instanceID: 0}
-  - pfSmoke: {instanceID: 0}
-  - pfChatBubble: {fileID: 3728437068038445425, guid: 989d3d1b7b1ce7d478b68467dd265d5f, type: 3}
-  - m_WeaponTracer: {instanceID: 0}
-  - m_MarineSpriteSheet: {instanceID: 0}
-  - m_DoorRed: {instanceID: 0}
-  - m_DoorGreen: {instanceID: 0}
-  - m_DoorBlue: {instanceID: 0}
-  - m_DoorKeyHoleRed: {instanceID: 0}
-  - m_DoorKeyHoleGreen: {instanceID: 0}
-  - m_DoorKeyHoleBlue: {instanceID: 0}
+  - pfChatBubble: {fileID: 3728437068038445425, guid: df73330eeb9b86841a6744d52470812a, type: 3}
   - cinemachineDefaultNoiseProfile: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
