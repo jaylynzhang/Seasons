@@ -78,6 +78,7 @@
     <Compile Include="Assets/Scenes/Winter/scripts/GetFlower.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerCamFall.cs" />
     <Compile Include="Assets/Scenes/Winter/scripts/PickStick.cs" />
+    <Compile Include="Assets/Scenes/StartingScene/MainMenu.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
     <Compile Include="Assets/Scenes/Winter/scripts/PlayerMove.cs" />
