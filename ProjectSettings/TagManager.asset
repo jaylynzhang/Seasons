@@ -12,6 +12,10 @@ TagManager:
   - rock
   - tube
   - umbrella
+  - terrain
+  - rockArea
+  - tubeArea
+  - umbrellaArea
   layers:
   - Default
   - TransparentFX
