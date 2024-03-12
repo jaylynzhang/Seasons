@@ -10,6 +10,7 @@ public class PlayerMovements : MonoBehaviour
     public float moveSpeed;
 
     public float groundDrag;
+    RaycastHit hit;
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -47,6 +48,20 @@ public class PlayerMovements : MonoBehaviour
         MyInput();
 
         rb.drag = groundDrag;
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+
+        float slopeMultiplier = 1f;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, moveSpeed))
+        {
+            float slopeAngle = Vector3.Angle(Vector3.up, hit.normal);
+            if (slopeAngle > 30)
+            {
+                slopeMultiplier = 2f; // Adjust the slopeMultiplier as needed
+            }
+        }
+
+        rb.AddForce(moveDirection.normalized * moveSpeed * slopeMultiplier, ForceMode.Force);
+
 
         //if (grounded)
         //{
