@@ -29,6 +29,7 @@ public class TextWriter : MonoBehaviour {
     }
 
     public static TextWriterSingle AddWriter_Static(TextMeshPro textMeshPro, string textToWrite, float timePerCharacter, bool invisibleCharacters, bool removeWriterBeforeAdd, Action onComplete) {
+        Debug.Log("inside TextWriter AddWriter_Static");
         if (removeWriterBeforeAdd) {
             instance.RemoveWriter(textMeshPro);
         }

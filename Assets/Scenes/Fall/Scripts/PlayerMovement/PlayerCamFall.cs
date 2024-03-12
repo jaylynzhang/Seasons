@@ -20,7 +20,7 @@ public class PlayerCamFall : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        yRotation = 180f;
+        yRotation = 0f;
     }
 
     // Update is called once per frame

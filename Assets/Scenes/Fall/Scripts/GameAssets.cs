@@ -32,29 +32,29 @@ public class GameAssets : MonoBehaviour {
 
 
 
-    public Sprite s_ShootFlash;
+    //public Sprite s_ShootFlash;
     
-    public Transform pfSwordSlash;
-    public Transform pfEnemy;
-    public Transform pfEnemyFlyingBody;
-    public Transform pfImpactEffect;
-    public Transform pfDamagePopup;
-    public Transform pfDashEffect;
-    public Transform pfProjectileArrow;
-    public Transform pfBolt;
-    public Transform pfSmoke;
+    //public Transform pfSwordSlash;
+    //public Transform pfEnemy;
+    //public Transform pfEnemyFlyingBody;
+    //public Transform pfImpactEffect;
+    //public Transform pfDamagePopup;
+    //public Transform pfDashEffect;
+    //public Transform pfProjectileArrow;
+    //public Transform pfBolt;
+    //public Transform pfSmoke;
     public Transform pfChatBubble;
 
-    public Material m_WeaponTracer;
-    public Material m_MarineSpriteSheet;
+    //public Material m_WeaponTracer;
+    //public Material m_MarineSpriteSheet;
 
-    public Material m_DoorRed;
-    public Material m_DoorGreen;
-    public Material m_DoorBlue;
+    //public Material m_DoorRed;
+    //public Material m_DoorGreen;
+    //public Material m_DoorBlue;
 
-    public Material m_DoorKeyHoleRed;
-    public Material m_DoorKeyHoleGreen;
-    public Material m_DoorKeyHoleBlue;
+    //public Material m_DoorKeyHoleRed;
+    //public Material m_DoorKeyHoleGreen;
+    //public Material m_DoorKeyHoleBlue;
 
     public Cinemachine.NoiseSettings cinemachineDefaultNoiseProfile;
 
