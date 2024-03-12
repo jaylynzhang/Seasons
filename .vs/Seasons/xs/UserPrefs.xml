@@ -1,17 +1,61 @@
 ﻿<Properties StartupConfiguration="{B10E9CFA-9100-EB1B-395F-624F0EFE56B2}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d327816a-9806-484f-9b49-7d302867948f" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Spring/Scripts/PickUpHammer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs">
     <Files>
-      <File FileName="Assets/Scenes/Spring/Scripts/typewriterUI.cs" Line="46" Column="34" />
-      <File FileName="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" Line="33" Column="34" />
-      <File FileName="Assets/Scenes/Spring/Scripts/PlayerCam.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" Line="19" Column="45" />
+      <File FileName="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" Line="30" Column="6" />
+      <File FileName="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
+      <File FileName="Assets/Scenes/Scripts/PlayerMovement.cs" />
+      <File FileName="Assets/Scenes/Scripts/PlayerCam.cs" />
+      <File FileName="Assets/Scenes/Scripts/PlayerControl.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" Line="14" Column="10" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/Interact/PlayerPickupDrop.cs" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteractUI.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/GameAssets.cs" Line="23" Column="41" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble3D.cs" Line="70" Column="19" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" Line="19" Column="34" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" Line="32" Column="29" NotebookId="1" />
+      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="544" Column="22" NotebookId="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seasons" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Asset Store Packages" expanded="True">
+                <Node name="ModularFirstPersonController" expanded="True">
+                  <Node name="FirstPersonController" expanded="True">
+                    <Node name="FirstPersonController.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scenes" expanded="True">
+                <Node name="Fall" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Interact" expanded="True" />
+                    <Node name="PlayerMovement" expanded="True" />
+                    <Node name="TalkToNPCs" expanded="True">
+                      <Node name="_" expanded="True" />
+                      <Node name="Scripts" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Spring" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0856bf8e-6120-41a2-a497-64120685053e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
