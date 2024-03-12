@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartingScene/StartingScene.unity
+    guid: 9f1bff691fed14f21a894e06b817171e
+  - enabled: 1
     path: Assets/Scenes/Fall/FallArea.unity
     guid: 0af05797674e249fe8e82ad3bac098f6
   - enabled: 1
@@ -17,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SummerArea.unity
     guid: 15b5ef728a5e5404dbb85bdcc5f251bb
+  - enabled: 1
+    path: Assets/Scenes/EndingScene/Credit.unity
+    guid: d862d70fb34664226bb69020c91c3c28
   m_configObjects: {}
