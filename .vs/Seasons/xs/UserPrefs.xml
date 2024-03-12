@@ -3,23 +3,21 @@
     <Files>
       <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble3D.cs" Line="27" Column="36" />
-      <File FileName="Assets/Scenes/Fall/Scripts/TextWriter.cs" />
-      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" Line="64" Column="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TextWriter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" Line="61" Column="6" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" Line="23" Column="23" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/GameHandler_ChatBubble.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/MoveRoam_ChatBubble.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/GameAssets.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/GameAssets.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" Line="5" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/NPCHeadLookAt.cs" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" Line="24" Column="24" NotebookId="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/PlayerInteractUI.cs" Line="24" Column="48" NotebookId="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/ObjectInteractable.cs" Line="59" Column="12" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" Line="25" Column="1" NotebookId="1" />
-      <File FileName="Assets/Scenes/Winter/scripts/PlantFlower.cs" Line="19" Column="6" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinAreaChecker.cs" Line="25" Column="8" NotebookId="1" />
-      <File FileName="Assets/LeveLoader.cs" Line="8" Column="5" NotebookId="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinManager.cs" Line="20" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" Line="39" Column="36" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinAreaChecker.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinManager.cs" Line="35" Column="35" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

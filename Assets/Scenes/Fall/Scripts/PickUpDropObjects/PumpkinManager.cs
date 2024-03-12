@@ -32,7 +32,7 @@ public class PumpkinManager : MonoBehaviour
 
     private void CheckPumpkinThreshold()
     {
-        if (totalPumpkinCount >= 1 && endText != null)
+        if (totalPumpkinCount >= 5 && endText != null)
         {
             endText.gameObject.SetActive(true);
         }
