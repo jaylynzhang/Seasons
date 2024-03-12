@@ -8,6 +8,8 @@ public class FillLemonJuice : MonoBehaviour
     public GameObject FilledLemonJuice;
     public GameObject LemonJuiceHint;
     public GameObject LemonOnHand;
+    public GameObject MapHint;
+    public GameObject map;
     public MonoBehaviour Outline;
     private bool firstTime;
 
@@ -20,6 +22,8 @@ public class FillLemonJuice : MonoBehaviour
         LemonJuiceHint.SetActive(false);
         LemonOnHand.SetActive(false);
         Outline.enabled = false;
+        map.SetActive(false);
+        MapHint.SetActive(false);
         firstTime = true;
     }
 
@@ -43,9 +47,17 @@ public class FillLemonJuice : MonoBehaviour
                 LemonJuiceHint.SetActive(false);
                 FilledLemonJuice.SetActive(true);
                 LemonOnHand.SetActive(false);
+                MapHint.SetActive(true);
+                wait(3);
+                map.SetActive(true);
             }
 
         }
+    }
+
+    IEnumerator wait(int time)
+    {
+        yield return new WaitForSeconds(time); // Wait for 3 seconds
     }
 
     private void OnTriggerExit(Collider other)

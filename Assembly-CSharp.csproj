@@ -60,6 +60,7 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerInteractUI.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
@@ -81,6 +82,15 @@
     <Compile Include="Assets/Scenes/Summer/terrainTrigger.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PickUpDropObjects/ObjectInteractable.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+=======
+    <Compile Include="Assets/Scenes/Spring/Scripts/ImmatureLemonTree.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/PlayerCam.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/DropWood.cs" />
+    <Compile Include="Assets/Scenes/Summer/PickUp.cs" />
+    <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/FXDemoController.cs" />
+    <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PickWood.cs" />
+>>>>>>> master
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionPeriodic.cs" />
@@ -88,6 +98,7 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/SaveSystem.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
     <Compile Include="Assets/Scenes/Summer/ObjectsToCollect.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_UnitAnimation.cs" />
     <Compile Include="Assets/Scenes/Winter/PickWood.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
@@ -132,10 +143,31 @@
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpWateringCan.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+=======
+    <Compile Include="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Boat.cs" />
+    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PlantFlower.cs" />
+    <Compile Include="Assets/LeveLoader.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/GetFlower.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/PlayerCamFall.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PickStick.cs" />
+    <Compile Include="Assets/Scenes/StartingScene/MainMenu.cs" />
+    <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PlayerMove.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/GetWood.cs" />
+    <Compile Include="Assets/Asset Store Packages/FantasyEnvironments/Environments/Town/Scripts/Door.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/MoveC.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/MoveCameraFall.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovementFall.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/PickUpWateringCan.cs" />
+>>>>>>> master
     <Compile Include="Assets/Scenes/Spring/Scripts/BuildBridge.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/EmitterPositionController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UnitAnim.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/FillLemonJuice.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/World_Mesh.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
@@ -178,6 +210,23 @@
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionTimer.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+=======
+    <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/MatureLemonTree.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Paddle.cs" />
+    <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PlayerC.cs" />
+    <Compile Include="Assets/Scenes/Summer/CollideResponse.cs" />
+    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
+    <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Map.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Outline.cs" />
+    <Compile Include="Assets/Scenes/Summer/StartingText.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/typewriterUI.cs" />
+    <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
+>>>>>>> master
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
@@ -197,7 +246,10 @@
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Asset Store Packages/QuickOutline/Resources/Shaders/OutlineMask.shader" />
+<<<<<<< HEAD
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+=======
+>>>>>>> master
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
@@ -230,7 +282,11 @@
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Asset Store Packages/Stylized Nature Environment/ReadMe.txt" />
+<<<<<<< HEAD
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF.shader" />
+=======
+    <None Include="Assets/Asset Store Packages/Stylized NPC - Peasant Nolant/README.txt" />
+>>>>>>> master
     <None Include="Assets/Asset Store Packages/Zololgo/PaperLands Winter Village/Shaders/Zololgo_PaperLands_StandardColorEmissive.shader" />
     <None Include="Assets/Asset Store Packages/Code4/RustGarden/Documentation/infos.txt" />
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
