@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -525,14 +525,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'CSE457 Computer Graphics Project
+  m_text: 'Congrats on completing a full year in the world of Seasons! Thanks for
+    playing :)
 
 
-    Spring - Lydia Li
+    CSE457 Computer Graphics Project
+
+
+    Spring - Jaylyn Zhang
 
 
     Summer
-    - Jaylyn Zhang
+    - Lydia Li
 
 
     Autumn - Christine Cai
@@ -541,7 +545,8 @@ MonoBehaviour:
     Winter - Yijia Zhao
 
 
-    la
+    TA: Ash
+    Luty
 
 
     la

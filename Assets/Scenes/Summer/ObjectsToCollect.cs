@@ -6,22 +6,23 @@ using UnityEngine.UI;
 
 public class ObjectsToCollect : MonoBehaviour
 {
-    //public GameObject end;
-    public GameOver gameOver;
+    public GameObject end;
+    //public GameOver gameOver;
     [SerializeField] private GameObject player;
 
-    // Use this for initialization
-    //void Awake()
-    //{
-    //    end.SetActive(false);
-    //}
+    //Use this for initialization
+    void Awake()
+    {
+        end.SetActive(false);
+    }
 
     private void Update()
     {
         if (CollideResponse.objects == 0)
         {
             player.GetComponent<FirstPersonController>().enabled = false;
-            gameOver.Setup();
+            end.SetActive(true);
+            //gameOver.Setup();
         }
     }
 

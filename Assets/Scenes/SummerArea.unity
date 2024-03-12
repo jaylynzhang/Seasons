@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b49164e50c8b45c5994f0ef947eb8b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 655580275}
+  end: {fileID: 1353969106}
   player: {fileID: 940249618}
 --- !u!1001 &608939358
 PrefabInstance:
@@ -1610,7 +1610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 550dcb701e5187c4db51b23cc7bd52cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.36
+      value: 5.77
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 550dcb701e5187c4db51b23cc7bd52cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2874,6 +2874,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080830326}
   m_CullTransparentMesh: 1
+--- !u!1001 &1104447735
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1655148732460880456, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: EndingText
+      value: 
+      objectReference: {fileID: 1353969106}
+    - target: {fileID: 1655148732460880456, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 1104447736}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7905717784162837444, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983044648489096960, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+--- !u!95 &1104447736 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4084362801078245493, guid: e89bcc23e830c4387b449ca59cabf356, type: 3}
+  m_PrefabInstance: {fileID: 1104447735}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1127885732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 550dcb701e5187c4db51b23cc7bd52cd, type: 3}
@@ -3877,7 +3947,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1353969107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4541,7 +4611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Congratulations on completing a full year in the world of Seasons!
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6729,6 +6799,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1104447735}
   - {fileID: 1049967206}
   - {fileID: 1164276082}
   - {fileID: 1583469994}
