@@ -1272,9 +1272,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7857723176079672709, guid: c8a2815ff94c8cf4c817008d9af097ad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 538527402}
-    - targetCorrespondingSourceObject: {fileID: 7857723176079672709, guid: c8a2815ff94c8cf4c817008d9af097ad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 538527401}
   m_SourcePrefab: {fileID: 100100000, guid: c8a2815ff94c8cf4c817008d9af097ad, type: 3}
 --- !u!4 &538527399 stripped
 Transform:
@@ -1286,22 +1283,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7857723176079672709, guid: c8a2815ff94c8cf4c817008d9af097ad, type: 3}
   m_PrefabInstance: {fileID: 538527398}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &538527401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538527400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41af368625d74e29896925f8d8afbce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Container: {fileID: 1575910556}
-  text: {fileID: 1080830326}
-  hint: {fileID: 0}
-  setDown: 0
 --- !u!65 &538527402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2163,7 +2144,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oldObj: {fileID: 1146153976}
   newObj: {fileID: 961912246}
-  correspodingObject: {fileID: 1146153976}
 --- !u!65 &988724439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2691,7 +2671,6 @@ MonoBehaviour:
   Container: {fileID: 1575910556}
   text: {fileID: 1080830326}
   hint: {fileID: 1758992580}
-  setDown: 0
 --- !u!1001 &1144290914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2895,7 +2874,6 @@ MonoBehaviour:
   Container: {fileID: 1575910556}
   text: {fileID: 1080830326}
   hint: {fileID: 1758992580}
-  setDown: 0
 --- !u!1001 &1157870944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4040,7 +4018,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oldObj: {fileID: 396772017}
   newObj: {fileID: 538527400}
-  correspodingObject: {fileID: 396772017}
 --- !u!1001 &1423237579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4726,7 +4703,6 @@ MonoBehaviour:
   Container: {fileID: 1575910556}
   text: {fileID: 1080830326}
   hint: {fileID: 1758992580}
-  setDown: 0
 --- !u!4 &1681666033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5790e9d1d3242fb4eba168e652fad3e3, type: 3}
@@ -5113,7 +5089,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   oldObj: {fileID: 1127885732}
   newObj: {fileID: 1144290915}
-  correspodingObject: {fileID: 1127885732}
 --- !u!65 &1747233017
 BoxCollider:
   m_ObjectHideFlags: 0
