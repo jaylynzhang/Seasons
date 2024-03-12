@@ -9,7 +9,6 @@ public class CollideResponse : MonoBehaviour
     public static int objects = 3;
     public GameObject oldObj; // the object user first sees when playing
     public GameObject newObj; // the new object that shows up (i.e. girl) after collision
-    public GameObject correspodingObject;
 
     //public GameObject collideArea;
 
@@ -34,35 +33,6 @@ public class CollideResponse : MonoBehaviour
   
     void OnTriggerEnter(Collider plyr)
     {
-        //if (plyr.gameObject.tag == "Player")
-        //{
-        //    Transform temp = plyr.gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).gameObject.transform;
-        //    if (temp.childCount > 0)
-        //    {
-
-        //        GameObject child = temp.GetChild(0).gameObject;
-        //        if (gameObject.tag == "rockArea" && child.tag == "rock")
-        //        {
-        //            objects--;
-        //            rock.SetActive(true);
-        //        }
-        //        if (gameObject.tag == "tubeArea" && child.tag == "tube")
-        //        {
-        //            objects--;
-        //            girl.SetActive(true);
-        //            oldGirl.SetActive(false);
-        //        }
-        //        if (gameObject.tag == "umbrellaArea" && child.tag == "umbrella")
-        //        {
-        //            objects--;
-        //            umbrella.SetActive(true);
-        //        }
-
-        //    }
-        //}
-
-
-        //ObjectIwantToPickUp.transform.parent = null; // make the object no be a child of the hands
       
         if (gameObject.tag == "rockArea" && plyr.gameObject.tag == "rock")
         {
@@ -88,10 +58,4 @@ public class CollideResponse : MonoBehaviour
         }       
     }
 
-    //void OnTriggerExit(Collider other)
-    //{
-    //    if (other.CompareTag("Player"){
-    //        isInBox = false;
-    //    }
-    //}
 }
