@@ -35,6 +35,7 @@ public class Boat : MonoBehaviour
             }
             if (PaddleOnPlayer.activeSelf && Input.GetKey(KeyCode.E))
             {
+                BoatHint.SetActive(false);
                 PaddleOnPlayer.SetActive(false);
                 mapOnPlayer.SetActive(false);
                 EndingText.SetActive(true);
