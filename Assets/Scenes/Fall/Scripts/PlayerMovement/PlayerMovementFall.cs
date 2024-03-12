@@ -64,8 +64,9 @@ public class PlayerMovementFall : MonoBehaviour
 
     private void Reset()
     {
-        //rb.position = new Vector3(88f, 5f, 20f);
-        rb.position = new Vector3(70f, 5f, 72f);
+        rb.position = new Vector3(88f, 5f, 20f);
+        // Position for test
+        //rb.position = new Vector3(70f, 5f, 72f);
     }
 
 
