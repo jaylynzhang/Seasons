@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp/bin/Debug/</OutputPath>
-    <DefineConstants>UNITY_2022_3_20;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_20;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -60,16 +60,17 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerInteractUI.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/ImmatureLemonTree.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PlayerCam.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/DropWood.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionUpdater.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/Scenes/Summer/PickUp.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/CameraFollowSetup.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/CameraFollow.cs" />
@@ -77,20 +78,12 @@
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ButtonSphereInteractable.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/FXDemoController.cs" />
+    <Compile Include="Assets/Scenes/Summer/GameOver.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TextWriter.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
-    <Compile Include="Assets/Scenes/Summer/terrainTrigger.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PickUpDropObjects/ObjectInteractable.cs" />
-    <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
-=======
-    <Compile Include="Assets/Scenes/Spring/Scripts/ImmatureLemonTree.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/PlayerCam.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/DropWood.cs" />
-    <Compile Include="Assets/Scenes/Summer/PickUp.cs" />
-    <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/FXDemoController.cs" />
-    <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Scenes/Winter/scripts/PickWood.cs" />
->>>>>>> master
+    <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionPeriodic.cs" />
@@ -98,20 +91,19 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/SaveSystem.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
     <Compile Include="Assets/Scenes/Summer/ObjectsToCollect.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_UnitAnimation.cs" />
-    <Compile Include="Assets/Scenes/Winter/PickWood.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_Animation.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Boat.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PlantFlower.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
-    <Compile Include="Assets/Scenes/Winter/PickStick.cs" />
-    <Compile Include="Assets/Scenes/Winter/PlayerC.cs" />
+    <Compile Include="Assets/LeveLoader.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/GetFlower.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/PlayerTalk.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/GameHandler_ChatBubble.cs" />
-    <Compile Include="Assets/Scenes/Winter/DropWood.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_BarMultiple.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
@@ -119,8 +111,10 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PickStick.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/ComponentActions.cs" />
+    <Compile Include="Assets/Scenes/StartingScene/MainMenu.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/CMDebug.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/Button_UI.cs" />
@@ -130,10 +124,15 @@
     <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinManager.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/GetWood.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/MoveRoam_ChatBubble.cs" />
+    <Compile Include="Assets/Asset Store Packages/FantasyEnvironments/Environments/Town/Scripts/Door.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/MoveC.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UtilsClass.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Assets.cs" />
@@ -143,90 +142,55 @@
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpWateringCan.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
-=======
-    <Compile Include="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/Boat.cs" />
-    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_CamNav.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/PlantFlower.cs" />
-    <Compile Include="Assets/LeveLoader.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/GetFlower.cs" />
-    <Compile Include="Assets/Scenes/Fall/Scripts/PlayerCamFall.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/PickStick.cs" />
-    <Compile Include="Assets/Scenes/StartingScene/MainMenu.cs" />
-    <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/PlayerMove.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/GetWood.cs" />
-    <Compile Include="Assets/Asset Store Packages/FantasyEnvironments/Environments/Town/Scripts/Door.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/MoveC.cs" />
-    <Compile Include="Assets/Scenes/Fall/Scripts/MoveCameraFall.cs" />
-    <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovementFall.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/PickUpWateringCan.cs" />
->>>>>>> master
     <Compile Include="Assets/Scenes/Spring/Scripts/BuildBridge.cs" />
     <Compile Include="Assets/Asset Store Packages/Winter Zone Mini 1.0/Scripts/EmitterPositionController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UnitAnim.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/FillLemonJuice.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/World_Mesh.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/UI_InputWindow.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble3D.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
-    <Compile Include="Assets/Scenes/Winter/MoveC.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MatureLemonTree.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_TextComplex.cs" />
-    <Compile Include="Assets/Scenes/Winter/GetWood.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinAreaChecker.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Paddle.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/GameAssets.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UnitAnimType.cs" />
+    <Compile Include="Assets/Scenes/Winter/scripts/PlayerC.cs" />
+    <Compile Include="Assets/Scenes/Summer/CollideResponse.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
     <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/ChatBubble.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/CLZF2.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
+    <Compile Include="Assets/Scenes/Spring/Scripts/Map.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/IMovePosition.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/Button_Sprite.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_Skeleton_Anim.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/LookAtCamera.cs" />
-    <Compile Include="Assets/Scenes/Winter/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/NPCHeadLookAt.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/Outline.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/UI_Bar.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_UnitSkeleton.cs" />
+    <Compile Include="Assets/Scenes/Summer/StartingText.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/typewriterUI.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/Utils/FunctionTimer.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
-=======
-    <Compile Include="Assets/Asset Store Packages/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/MatureLemonTree.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/Paddle.cs" />
-    <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
-    <Compile Include="Assets/Scenes/Winter/scripts/PlayerC.cs" />
-    <Compile Include="Assets/Scenes/Summer/CollideResponse.cs" />
-    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
-    <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
-    <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/Map.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/Outline.cs" />
-    <Compile Include="Assets/Scenes/Summer/StartingText.cs" />
-    <Compile Include="Assets/Scenes/Spring/Scripts/typewriterUI.cs" />
-    <Compile Include="Assets/Scenes/Scripts/PlayerControl.cs" />
->>>>>>> master
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
@@ -246,10 +210,7 @@
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/Asset Store Packages/QuickOutline/Resources/Shaders/OutlineMask.shader" />
-<<<<<<< HEAD
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-=======
->>>>>>> master
     <None Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
@@ -282,11 +243,8 @@
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Asset Store Packages/Stylized Nature Environment/ReadMe.txt" />
-<<<<<<< HEAD
-    <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF.shader" />
-=======
     <None Include="Assets/Asset Store Packages/Stylized NPC - Peasant Nolant/README.txt" />
->>>>>>> master
+    <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF.shader" />
     <None Include="Assets/Asset Store Packages/Zololgo/PaperLands Winter Village/Shaders/Zololgo_PaperLands_StandardColorEmissive.shader" />
     <None Include="Assets/Asset Store Packages/Code4/RustGarden/Documentation/infos.txt" />
     <None Include="Assets/Scenes/Fall/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />

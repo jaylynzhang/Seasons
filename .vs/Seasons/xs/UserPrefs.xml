@@ -1,16 +1,71 @@
 ﻿<Properties StartupConfiguration="{B10E9CFA-9100-EB1B-395F-624F0EFE56B2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Winter/scripts/PlantFlower.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinManager.cs">
     <Files>
-      <File FileName="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" Line="24" Column="1" IsPinned="True" />
-      <File FileName="Assets/Scenes/Spring/Scripts/typewriterUI.cs" />
-      <File FileName="Assets/Scenes/Spring/Scripts/PlayerMovements.cs" />
-      <File FileName="Assets/LeveLoader.cs" />
-      <File FileName="Assets/Scenes/Winter/scripts/PlantFlower.cs" Line="1" Column="1" />
+      <File FileName="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble3D.cs" Line="27" Column="36" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TextWriter.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerMovementFall.cs" Line="64" Column="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/MoveCameraFall.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" Line="23" Column="23" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/GameHandler_ChatBubble.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/MoveRoam_ChatBubble.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/GameAssets.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/NPCHeadLookAt.cs" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" Line="24" Column="24" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PlayerInteractUI.cs" Line="24" Column="48" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/ObjectInteractable.cs" Line="59" Column="12" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteract.cs" Line="25" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scenes/Winter/scripts/PlantFlower.cs" Line="19" Column="6" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinAreaChecker.cs" Line="25" Column="8" NotebookId="1" />
+      <File FileName="Assets/LeveLoader.cs" Line="8" Column="5" NotebookId="1" />
+      <File FileName="Assets/Scenes/Fall/Scripts/PickUpDropObjects/PumpkinManager.cs" Line="20" Column="1" NotebookId="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Seasons" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Asset Store Packages" expanded="True">
+                <Node name="ModularFirstPersonController" expanded="True">
+                  <Node name="FirstPersonController" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Scenes" expanded="True">
+                <Node name="Fall" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="PickUpDropObjects" expanded="True">
+                      <Node name="PumpkinManager.cs" selected="True" />
+                    </Node>
+                    <Node name="PlayerMovement" expanded="True" />
+                    <Node name="TalkToNPCs" expanded="True">
+                      <Node name="_" expanded="True">
+                        <Node name="ChatBubble" expanded="True">
+                          <Node name="Scripts" expanded="True" />
+                        </Node>
+                      </Node>
+                      <Node name="Scripts" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="TextMesh Pro" expanded="True" />
+                </Node>
+                <Node name="Scripts" expanded="True" />
+                <Node name="Spring" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+                <Node name="Winter" expanded="True">
+                  <Node name="scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9f25ccd9-4da8-41ab-a126-3cb1b3a24c83" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="887ffbe6-c158-4edd-ac08-7f16627a63d9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
