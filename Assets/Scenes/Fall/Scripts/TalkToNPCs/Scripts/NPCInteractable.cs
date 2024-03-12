@@ -20,7 +20,7 @@ public class NPCInteractable : MonoBehaviour, IInteractable {
 
         //animator.SetTrigger("Talk");
 
-        float playerHeight = 1.7f;
+        float playerHeight = 1f;
         npcHeadLookAt.LookAtPosition(interactorTransform.position + Vector3.up * playerHeight);
     }
 

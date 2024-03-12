@@ -17,12 +17,14 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
     public void Interact(Transform playerTransform)
     {
         // Toggle grab state
-        if (!isGrabbed)
+        if (!PlayerInteract.IsHoldingObject)
         {
+            Debug.Log("if grab");
             Grab(playerTransform);
         }
         else
         {
+            Debug.Log("else drop");
             Drop();
         }
     }
@@ -39,7 +41,7 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
 
     public void Grab(Transform objectGrabPointTransform)
     {
-        isGrabbed = true;
+        //isGrabbed = true;
         this.objectGrabPointTransform = objectGrabPointTransform;
         objectRigidbody.useGravity = false;
         objectRigidbody.isKinematic = true;
@@ -48,19 +50,24 @@ public class ObjectInteractable : MonoBehaviour, IInteractable
         transform.position = objectGrabPointTransform.position;
         Vector3 fixedAngle = new Vector3(0, objectGrabPointTransform.eulerAngles.y, 0);
         transform.eulerAngles = fixedAngle;
+        PlayerInteract.IsHoldingObject = true;
     }
 
     public void Drop()
     {
-        isGrabbed = false;
+        //isGrabbed = false;
+        Debug.Log("inside Drop");
         this.objectGrabPointTransform = null;
         objectRigidbody.useGravity = true;
         objectRigidbody.isKinematic = false;
+        PlayerInteract.IsHoldingObject = false;
+        //PlayerInteract.ObjectDropped(); // Reset the holding flag
     }
 
     private void FixedUpdate()
     {
-        if (isGrabbed && objectGrabPointTransform != null)
+        //if (isGrabbed && objectGrabPointTransform != null)
+        if (PlayerInteract.IsHoldingObject && objectGrabPointTransform != null)
         {
             // Ensures the object follows the grab point smoothly
             float lerpSpeed = 10f;

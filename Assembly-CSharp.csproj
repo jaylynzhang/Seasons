@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/PlayerInteractUI.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/ImmatureLemonTree.cs" />
@@ -153,7 +154,6 @@
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/GameAssets.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs" />
-    <Compile Include="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/PlayerInteractUI.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UnitAnimType.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Camera.cs" />
