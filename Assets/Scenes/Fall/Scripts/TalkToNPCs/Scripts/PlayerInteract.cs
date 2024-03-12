@@ -3,13 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour {
+    // For PlayerPickUpDrop
+    [SerializeField] private Transform playerCameraTransform;
+    [SerializeField] private Transform objectGrabPointTransform;
+    [SerializeField] private LayerMask pickUpLayerMask;
 
+    //private ObjectGrabbable objectGrabbable;
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.E)) {
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    IInteractable interactable = GetInteractableObject();
+        //    if (interactable != null)
+        //    {
+        //        interactable.Interact(transform);
+        //    }
+        //}
+
+        //// Pick up or drop objects
+        //if (Input.GetKeyDown(KeyCode.G))
+        //{
+        //    HandlePickUpOrDrop();
+        //}
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
             IInteractable interactable = GetInteractableObject();
-            if (interactable != null) {
-                interactable.Interact(transform);
+            if (interactable != null)
+            {
+                interactable.Interact(objectGrabPointTransform);
             }
         }
     }
@@ -40,4 +62,26 @@ public class PlayerInteract : MonoBehaviour {
         return closestInteractable;
     }
 
+    //private void HandlePickUpOrDrop()
+    //{
+    //    if (objectGrabbable == null)
+    //    {
+    //        // Not carrying an object, try to grab
+    //        float pickUpDistance = 4f;
+    //        if (Physics.Raycast(playerCameraTransform.position, playerCameraTransform.forward, out RaycastHit raycastHit, pickUpDistance, pickUpLayerMask))
+    //        {
+    //            if (raycastHit.transform.TryGetComponent(out objectGrabbable))
+    //            {
+    //                Debug.Log(objectGrabbable);
+    //                objectGrabbable.Grab(objectGrabPointTransform);
+    //            }
+    //        }
+    //    }
+    //    else
+    //    {
+    //        // Currently carrying something, drop
+    //        objectGrabbable.Drop();
+    //        objectGrabbable = null;
+    //    }
+    //}
 }

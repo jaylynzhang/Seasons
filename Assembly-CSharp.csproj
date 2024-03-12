@@ -78,6 +78,7 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/TextWriter.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Scenes/Summer/terrainTrigger.cs" />
+    <Compile Include="Assets/Scenes/Fall/Scripts/PickUpDropObjects/ObjectInteractable.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/Asset Store Packages/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs" />
     <Compile Include="Assets/Asset Store Packages/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
@@ -114,7 +115,6 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/UVType.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/V_Animation/V_Skeleton_Frame.cs" />
-    <Compile Include="Assets/Scenes/Fall/Scripts/Interact/PlayerPickupDrop.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/CodeMonkey/MonoBehaviours/PositionRendererSorter.cs" />
     <Compile Include="Assets/Scenes/Fall/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
@@ -1258,12 +1258,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1282,12 +1282,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
