@@ -55,7 +55,7 @@
     <UnityVersion>2022.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -131,6 +131,7 @@
     <None Include="Assets/Asset Store Packages/Snowconesolid Assets/Super Beach Pack/Super Beach Ball Pack/Snowconesolid Assets ReadMe.txt" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/Asset Store Packages/Stylized Nature Environment/ReadMe.txt" />
+    <None Include="Assets/Asset Store Packages/Stylized NPC - Peasant Nolant/README.txt" />
     <None Include="Assets/Asset Store Packages/Zololgo/PaperLands Winter Village/Shaders/Zololgo_PaperLands_StandardColorEmissive.shader" />
     <None Include="Assets/Asset Store Packages/Code4/RustGarden/Documentation/infos.txt" />
     <None Include="Assets/Asset Store Packages/AQUAS-Lite/Shaders/AQUAS-Lite_Backface.shader" />
