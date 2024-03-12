@@ -12,6 +12,7 @@ TagManager:
   - rock
   - tube
   - umbrella
+  - flower
   layers:
   - Default
   - TransparentFX

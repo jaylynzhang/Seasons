@@ -78,6 +78,7 @@
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerCamFall.cs" />
     <Compile Include="Assets/Scenes/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/MoveCamera.cs" />
+    <Compile Include="Assets/Scenes/Winter/PlantFlower.cs" />
     <Compile Include="Assets/Asset Store Packages/FantasyEnvironments/Environments/Town/Scripts/Door.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/MoveCameraFall.cs" />
     <Compile Include="Assets/Scenes/Fall/Scripts/PlayerMovementFall.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets/Scenes/Scripts/CameraController.cs" />
     <Compile Include="Assets/Asset Store Packages/AQUAS-Lite/Scripts/AQUAS_Lite_Reflection.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/Map.cs" />
+    <Compile Include="Assets/Scenes/Winter/GetFlower.cs" />
     <Compile Include="Assets/Scenes/Winter/PlayerMove.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/PickUpHammer.cs" />
     <Compile Include="Assets/Scenes/Spring/Scripts/Outline.cs" />
