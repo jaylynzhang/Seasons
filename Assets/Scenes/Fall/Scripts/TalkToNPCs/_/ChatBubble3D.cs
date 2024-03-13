@@ -20,11 +20,9 @@ public class ChatBubble3D : MonoBehaviour {
     public static void Create(Transform parent, Vector3 localPosition, IconType iconType, string text) {
         Transform chatBubbleTransform = Instantiate(GameAssets.i.pfChatBubble, parent);
         chatBubbleTransform.localPosition = localPosition;
-        Debug.Log(chatBubbleTransform.position);
         chatBubbleTransform.GetComponent<ChatBubble3D>().Setup(iconType, text);
 
         Destroy(chatBubbleTransform.gameObject, 6f);
-        Debug.Log("After destroy");
     }
 
 
@@ -52,7 +50,6 @@ public class ChatBubble3D : MonoBehaviour {
     }
 
     private void Setup(IconType iconType, string text) {
-        Debug.Log("inside ChartBubble3D Setup");
         textMeshPro.SetText(text);
         textMeshPro.ForceMeshUpdate();
         Vector2 textSize = textMeshPro.GetRenderedValues(false);

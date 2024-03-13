@@ -29,7 +29,16 @@ public class TextWriter : MonoBehaviour {
     }
 
     public static TextWriterSingle AddWriter_Static(TextMeshPro textMeshPro, string textToWrite, float timePerCharacter, bool invisibleCharacters, bool removeWriterBeforeAdd, Action onComplete) {
-        Debug.Log("inside TextWriter AddWriter_Static");
+        if (instance == null)
+        {
+            instance = FindObjectOfType<TextWriter>();
+            if (instance == null)
+            {
+                // Create a new GameObject and add TextWriter to it
+                GameObject textWriterObj = new GameObject("TextWriterSingleton");
+                instance = textWriterObj.AddComponent<TextWriter>();
+            }
+        }
         if (removeWriterBeforeAdd) {
             instance.RemoveWriter(textMeshPro);
         }
