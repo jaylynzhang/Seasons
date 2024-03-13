@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 502cdeb90ed0c884a94fa20d171b1c46, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b6d77b04825b0d747b812d5f8d1f6cb8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11866311, g: 0.14058724, b: 0.20928845, a: 1}
+  m_IndirectSpecularColor: {r: 0.6531624, g: 0.63693994, b: 0.73814017, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11002,7 +11002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658e1670b9356484398e121fc077bd56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 2
   groundDrag: 5
   playerHeight: 2
   whatIsGround:
