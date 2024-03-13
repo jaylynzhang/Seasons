@@ -9,7 +9,6 @@
       <File FileName="Assets/Scenes/Fall/Scripts/PlayerMovement/PlayerCamFall.cs" Line="23" Column="23" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/GameHandler_ChatBubble.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/ChatBubble/Scripts/MoveRoam_ChatBubble.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/Fall/Scripts/GameAssets.cs" Line="1" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/IInteractable.cs" Line="5" Column="1" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/_/NPCHeadLookAt.cs" />
       <File FileName="Assets/Scenes/Fall/Scripts/TalkToNPCs/Scripts/NPCInteractable.cs" Line="24" Column="24" NotebookId="1" />
